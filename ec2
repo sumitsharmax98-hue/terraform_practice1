@@ -1,0 +1,56 @@
+🔹 1. What is EC2?
+
+👉 “EC2 stands for Elastic Compute Cloud. It is a cloud service provided by AWS that allows us to create virtual servers on demand. These servers can be used to run applications, host websites, and perform backend processing. It is flexible, scalable, and we only pay for what we use.”
+
+🔹 2. What is an EC2 instance?
+
+👉 “An EC2 instance is a virtual machine running in the cloud. It behaves like a real computer where we can install software, configure applications, and manage it as per our requirement.”
+
+🔹 3. Why do we use EC2?
+
+👉 “We use EC2 because it removes the need to buy physical hardware. It allows us to quickly launch servers, scale resources up or down based on demand, and reduce cost by paying only for usage.”
+
+🔹 4. What is AMI?
+
+👉 “AMI stands for Amazon Machine Image. It is a pre-configured template that includes operating system and required software. We use AMI to launch EC2 instances quickly without setting everything from scratch.”
+
+🔹 5. What is a key pair?
+
+👉 “A key pair is used for secure authentication while connecting to an EC2 instance. It consists of a public key and a private key. The private key is kept safe and used during login.”
+
+🔹 6. What is a security group?
+
+👉 “A security group acts as a virtual firewall for EC2 instances. It controls incoming and outgoing traffic based on defined rules like ports, IP addresses, and protocols.”
+
+🔹 7. How do you connect to EC2?
+
+👉 “We connect to EC2 instances using SSH for Linux-based instances and RDP for Windows. SSH uses port 22 and requires a key pair for authentication.”
+
+🔹 8. What is EBS?
+
+👉 “EBS stands for Elastic Block Store. It is a persistent storage service that is attached to EC2 instances and works like a hard disk. The data remains safe even if the instance is stopped.”
+
+🔹 9. Difference between Stop and Terminate?
+
+👉 “When we stop an EC2 instance, the instance is shut down but the data remains محفوظ in EBS. When we terminate the instance, it is permanently deleted and the attached storage is also removed, so data is lost.”
+
+🔹 10. EC2 not connecting, what will you check?
+
+👉 “First, I will check the security group to ensure the required port like 22 is open. Then I will verify the key pair, check if the instance is running, and confirm the correct public IP is being used.”
+
+🔹 11. What is an Elastic IP?
+
+👉 “Elastic IP is a static public IP address that can be attached to an EC2 instance. It helps maintain the same IP address even after restarting the instance.”
+
+🔹 12. What are instance types?
+
+👉 “Instance types define the hardware configuration of an EC2 instance such as CPU, memory, storage, and network performance. We select instance type based on the application requirement.”
+
+🔹 13. What is Auto Scaling?
+
+👉 “Auto Scaling automatically adjusts the number of EC2 instances based on traffic or load. It helps maintain performance and reduce cost by adding or removing instances dynamically.”
+
+🔹 14. What is a load balancer?
+
+👉 “A load balancer distributes incoming traffic across multiple EC2 instances. This improves availability and ensures that no single server is overloaded.”:wq
+
